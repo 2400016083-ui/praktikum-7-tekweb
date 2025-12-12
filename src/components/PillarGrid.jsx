@@ -3,25 +3,25 @@ export default function PillarGrid() {
     {
       title: "Ideation",
       desc: "Mengembangkan ide-ide kreatif dan inovatif melalui brainstorming dan workshop ideation yang terarah.",
-      img: "src/assets/PilarIdeation.png",
+      img: "/assets/PilarIdeation.png",
       color: "bg-yellow-100",
     },
     {
       title: "Creation",
       desc: "Mewujudkan ide menjadi karya nyata dengan dukungan tools dan teknologi terkini.",
-      img: "src/assets/PilarCreation.png",
+      img: "/assets/PilarCreation.png",
       color: "bg-green-100",
     },
     {
       title: "Collaboration",
       desc: "Bekerja sama dalam tim multidisiplin untuk menciptakan solusi yang komprehensif.",
-      img: "src/assets/PilarCollaboration.png",
+      img: "/assets/PilarCollaboration.png",
       color: "bg-blue-100",
     },
     {
       title: "Guidance & Support",
       desc: "Mendapat bimbingan dari mentor berpengalaman dan akses ke berbagai resources pembelajaran.",
-      img: "src/assets/PilarGuidance.png",
+      img: "/assets/PilarGuidance.png",
       color: "bg-pink-100",
     },
   ];
