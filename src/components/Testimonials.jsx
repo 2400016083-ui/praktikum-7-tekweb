@@ -11,8 +11,9 @@ export default function Testimonials() {
       {t.map((x, i) => (
         <div key={i} className="bg-white p-6 rounded-xl shadow flex gap-4">
           <img
-            src="public/assets/Frame.png"
+            src="assets/Frame.png"
             className="w-12 h-12 rounded-full object-cover"
+            alt="Foto"
           />
           <div>
             <h3 className="font-semibold">{x.name}</h3>

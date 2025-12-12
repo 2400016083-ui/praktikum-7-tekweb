@@ -28,7 +28,7 @@ export default function HeroSection() {
 
       <div className="flex justify-center">
         <img
-          src="public/assets/HeroSection.png"
+          src="/praktikum-7-tekweb/assets/HeroSection.png"
           className="w-64 md:w-80 lg:w-[22rem] rounded-xl object-cover shadow-md"
           alt="Hero"
         />
