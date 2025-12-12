@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/praktikum-7-tekweb/", 
+  base: "/praktikum-7-tekweb/",
 });
