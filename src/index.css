@@ -1,18 +1,27 @@
 @import "tailwindcss";
 
-.testimonial-scroll {
-  display: flex;
-  gap: 1rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  padding-bottom: 10px;
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
-.testimonial-scroll::-webkit-scrollbar {
-  display: none;
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
-.testimonial-card {
-  scroll-snap-align: start;
-  min-width: 260px;
+.animate-scroll-left {
+  animation: scroll-left 15s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 15s linear infinite;
 }
