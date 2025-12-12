@@ -4,25 +4,25 @@ export default function ProgramCards() {
         title: "Career Talks",
         desc: "Sesi sharing dari praktisi industri dan alumni sukses",
         color: "bg-yellow-100",
-        img: "/assets/CareerTalks.png",
+        img: "public/assets/CareerTalks.png",
       },
       {
         title: "Extra Classes",
         desc: "Kelas tambahan skill development dan workshop teknis",
         color: "bg-green-100",
-        img: "/assets/ExtraClasses.png",
+        img: "public/assets/ExtraClasses.png",
       },
       {
         title: "Project Work",
         desc: "Mengerjakan project nyata dengan bimbingan mentor",
         color: "bg-blue-100",
-        img: "/assets/ProjectWork.png",
+        img: "public/assets/ProjectWork.png",
       },
       {
         title: "Mentoring",
         desc: "Sesi konsultasi personal dengan mentor berpengalaman",
         color: "bg-pink-100",
-        img: "/assets/Mentoring.png",
+        img: "public/assets/Mentoring.png",
       },
     ];
   

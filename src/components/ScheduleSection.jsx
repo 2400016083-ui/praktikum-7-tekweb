@@ -14,7 +14,7 @@ export default function ScheduleSection() {
         <div className="bg-white mt-10 rounded-2xl shadow-xl p-6">
           {/* Label */}
           <div className="text-center font-semibold text-blue-600 mb-6 flex items-center justify-center gap-2">
-            <img src="/assets/Kalender.png" className="w-5" />
+            <img src="public/assets/Kalender.png" className="w-5" />
             Setiap Sabtu
           </div>
   
@@ -22,7 +22,7 @@ export default function ScheduleSection() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-5 rounded-xl shadow-sm border bg-gradient-to-r from-yellow-50 to-green-50">
               <h3 className="font-semibold text-sm flex items-center gap-2">
-                <img src="/assets/Jam.png" className="w-5" />
+                <img src="public/assets/Jam.png" className="w-5" />
                 Sesi Pagi
               </h3>
               <p className="text-blue-900 font-semibold text-sm mt-1">
@@ -35,7 +35,7 @@ export default function ScheduleSection() {
   
             <div className="p-5 rounded-xl shadow-sm border bg-gradient-to-r from-yellow-50 to-blue-50">
               <h3 className="font-semibold text-sm flex items-center gap-2">
-                <img src="/assets/Jam.png" className="w-5" />
+                <img src="public/assets/Jam.png" className="w-5" />
                 Sesi Sore
               </h3>
               <p className="text-blue-900 font-semibold text-sm mt-1">

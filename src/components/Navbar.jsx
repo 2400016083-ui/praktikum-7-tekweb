@@ -7,7 +7,7 @@ export default function Navbar() {
   
           {/* Logo text (gambar “ruang ekspresi”) */}
           <img
-            src="/assets/nav.png"
+            src="public/assets/nav.png"
             className="h-7"
             alt="Ruang Ekspresi"
           />
